@@ -88,7 +88,7 @@ a:visited{
 
 
 ul{
-	list-style-type: none;
+	/* list-style-type: none; */
 	margin: 0;
 	padding: 0;
 	overflow: hidden;
@@ -133,27 +133,24 @@ img{
 }
 
 
-table{
-/*
-	border: 1px solid black;
- */
-	vertical-align: top;
-	font-family:'Open Sans', sans-serif; font-weight: 300; font-size:100%;
+
+/div.image-gallery {
+  display: block;
 }
 
-/* getting margins to align in first column of home page*/
-.myname{
-	padding: 0px;
-	margin: -10px 0px 0px -3px;
-	border: 0;
+div.image-gallery img {
+  display: block;
+  float: left;
 }
 
-.first-col{
-	padding: 0px;
-	margin: 0px;
-	text-align: justify;
-	font-family:'Open Sans', sans-serif; font-weight: 300; font-size:100%;
+.clear {
+  clear: both;
+  height: 0;
+  width: 0;
+  font-size: 1px;
+  line-height: 0;
 }
+
 
 /* For accordion lists*/
 button.accordion {
