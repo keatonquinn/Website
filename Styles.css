@@ -98,7 +98,7 @@ ul{
 }
 
 li{
-	display: inline;
+	/*display: inline; */
 	padding: 0px 15px;
 	text-align: left;
 	margin-left: -15px;
