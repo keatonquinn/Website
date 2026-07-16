@@ -12,7 +12,7 @@ div.wrap {
 	background-color: #FFFFFF;
 	padding: 40px;
 	padding-top: 30px;
-	text-align: left;
+	text-align: justify;
 	position: relative;
 	width: 60%;
 	max-width: 1200px;
@@ -87,8 +87,8 @@ a:visited{
 }
 
 
-ul{
-	/* list-style-type: none; */
+.homepage{
+	list-style-type: none;
 	margin: 0;
 	padding: 0;
 	overflow: hidden;
@@ -97,10 +97,20 @@ ul{
 	font-family:'Open Sans', sans-serif; font-weight: 300; font-size:100%;
 }
 
+.jobpage{
+	list-style-type: disc;
+	margin: 0;
+	padding: 0;
+	background-color: #FFFFFF;
+	padding-left: 0px;
+	list-style-position: outside;
+	font-family:'Open Sans', sans-serif; font-weight: 300; font-size:100%;
+}
+
 li{
 	/*display: inline; */
 	padding: 0px 15px;
-	text-align: left;
+	text-align: justify;
 	margin-left: -15px;
 	font-family:'Open Sans', sans-serif; font-weight: 300; font-size:100%;
 }
@@ -150,6 +160,9 @@ div.image-gallery img {
   font-size: 1px;
   line-height: 0;
 }
+
+
+
 
 
 /* For accordion lists*/
