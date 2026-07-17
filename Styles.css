@@ -30,7 +30,7 @@ div.wrap {
 	background-color: #FFFFFF;
 	padding: 40px;
 	padding-top: 30px;
-	text-align: left;
+	text-align: justify;
 	position: relative;
 	width: 75%;
 	max-width: 1200px;
@@ -47,7 +47,7 @@ div.wrap {
 	background-color: #FFFFFF;
 	padding: 40px;
 	padding-top: 30px;
-	text-align: left;
+	text-align: justify;
 	position: relative;
 	width: 90%;
 	max-width: 1200px;
